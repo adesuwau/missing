@@ -1,6 +1,6 @@
-<h1>States#index</h1>
-<p>Find me in app/views/states/index.html.erb</p>
+<h1>Missing Person Profiles By State</h1>
+<p>Click on your state to view missing people in your area</p>
 
 <% @states.each do |state| %>
-<%= state.name =%>
+<a href="/states/profiles"><%= state.name =%></a>
 <% end %>
