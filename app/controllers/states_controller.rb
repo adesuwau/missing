@@ -5,5 +5,6 @@ class StatesController < ApplicationController
 
   def profiles
     @profiles = Profile.find_by(id: 1)
+    binding.pry
   end
 end
