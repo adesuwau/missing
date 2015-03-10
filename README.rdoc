@@ -1,3 +1,3 @@
 Application where users can post information about missing loved ones. Users can then be contacted via email by other users if any information or the missing loved one is found.
 
-(in progress...)
+(in progress....)
